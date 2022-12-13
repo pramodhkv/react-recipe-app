@@ -16,8 +16,6 @@ const RecipeCard = (props: IRecipeCardProps) => {
 
   const { recipes } = useFetchRecipes(type);
 
-  console.log("final recipes", recipes);
-
   return (
     <Wrapper>
       <h3>{title}</h3>
